@@ -1,0 +1,202 @@
+{
+  "v": 11,
+  "name": "Test_Collection_1",
+  "folders": [],
+  "requests": [
+    {
+      "v": "17",
+      "endpoint": "https://jsonplaceholder.typicode.com/users/1",
+      "name": "User_1",
+      "params": [],
+      "headers": [],
+      "method": "GET",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "preRequestScript": "",
+      "testScript": "",
+      "body": {
+        "contentType": null,
+        "body": null
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "17",
+      "name": "Security_&_Error_Handling",
+      "method": "GET",
+      "endpoint": "https://jsonplaceholder.typicode.com/posts/99999",
+      "params": [],
+      "headers": [
+        {
+          "key": "X-Cassandra-Token",
+          "value": "{   \"documentIds\": [     \"822dc277-9121-4791-8b01-da8154e67d5d, 6334dft4-9153-3642-4f32-da8154e67d5d\"   ] }",
+          "active": true,
+          "description": ""
+        }
+      ],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": ""
+      },
+      "requestVariables": [],
+      "responses": {},
+      "description": null
+    },
+    {
+      "v": "17",
+      "endpoint": "https://jsonplaceholder.typicode.com/posts",
+      "name": "SLA_test",
+      "params": [],
+      "headers": [],
+      "method": "GET",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "preRequestScript": "",
+      "testScript": "",
+      "body": {
+        "contentType": null,
+        "body": null
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "17",
+      "endpoint": "https://jsonplaceholder.typicode.com/comments?postId=1",
+      "name": "Data_Filter_&_Query_Params",
+      "params": [],
+      "headers": [],
+      "method": "GET",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "preRequestScript": "",
+      "testScript": "",
+      "body": {
+        "contentType": null,
+        "body": null
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "17",
+      "endpoint": "https://jsonplaceholder.typicode.com/photos/1",
+      "name": "GET_Meta_Data",
+      "params": [],
+      "headers": [],
+      "method": "GET",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "preRequestScript": "",
+      "testScript": "",
+      "body": {
+        "contentType": null,
+        "body": null
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "17",
+      "endpoint": "https://jsonplaceholder.typicode.com/posts/1",
+      "name": "Get_Single_List",
+      "params": [],
+      "headers": [],
+      "method": "GET",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "preRequestScript": "",
+      "testScript": "",
+      "body": {
+        "contentType": null,
+        "body": null
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "17",
+      "endpoint": "https://jsonplaceholder.typicode.com/posts",
+      "name": "Post_Data",
+      "params": [],
+      "headers": [],
+      "method": "POST",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "preRequestScript": "",
+      "testScript": "",
+      "body": {
+        "contentType": "application/json",
+        "body": "{\"title\": \"QA Test\", \"body\": \"Portfólio\", \"userId\": 1}"
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "17",
+      "endpoint": "https://jsonplaceholder.typicode.com/posts/1",
+      "name": "Patch_New_Title",
+      "params": [],
+      "headers": [],
+      "method": "PATCH",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "preRequestScript": "",
+      "testScript": "",
+      "body": {
+        "contentType": "application/json",
+        "body": "{\"title\": \"Nový upravený titul\"}"
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "17",
+      "endpoint": "https://jsonplaceholder.typicode.com/posts/1",
+      "name": "Delete",
+      "params": [],
+      "headers": [],
+      "method": "DELETE",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "preRequestScript": "",
+      "testScript": "",
+      "body": {
+        "contentType": null,
+        "body": null
+      },
+      "requestVariables": [],
+      "responses": {}
+    }
+  ],
+  "headers": [],
+  "auth": {
+    "authType": "none",
+    "authActive": true
+  },
+  "variables": [],
+  "description": ""
+}
